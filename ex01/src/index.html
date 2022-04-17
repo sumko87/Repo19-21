@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Virtual keyboard</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <main>
+            <h2>QWERTY Keyboard</h2>
+            <form>
+                <textarea type="text" id="txtArea"> </textarea>
+                <input type="text" id="caps" style="color:red; display:none">
+                <input type="text" id="shift" style="display:none">
+            </form>
+
+            <div class="row">
+                <div class="col1"><button id="1"onclick="num1()">1</button></div>
+                <div class="col1"><button id="2"onclick="num2()">2</button></div>
+                <div class="col1"><button id="3"onclick="num3()">3</button></div>
+                <div class="col1"><button id="4"onclick="num4()">4</button></div>
+                <div class="col1"><button id="5"onclick="num5()">5</button></div>
+                <div class="col1"><button id="6"onclick="num6()">6</button></div>
+                <div class="col1"><button id="7"onclick="num7()">7</button></div>
+                <div class="col1"><button id="8"onclick="num8()">8</button></div>
+                <div class="col1"><button id="9"onclick="num9()">9</button></div>
+                <div class="col1"><button id="0"onclick="num0()">0</button></div>
+                <div class="col2"><button id="backSpace"onclick="backspace()">Back Space</button></div>
+            </div>
+
+            <div class="row">
+                <div class="col1"><button id="q"onclick="q()">q</button></div>
+                <div class="col1"><button id="w"onclick="w()">w</button></div>
+                <div class="col1"><button id="e"onclick="e()">e</button></div>
+                <div class="col1"><button id="r"onclick="r()">r</button></div>
+                <div class="col1"><button id="t"onclick="t()">t</button></div>
+                <div class="col1"><button id="y"onclick="y()">y</button></div>
+                <div class="col1"><button id="u"onclick="u()">u</button></div>
+                <div class="col1"><button id="i"onclick="i()">i</button></div>
+                <div class="col1"><button id="o"onclick="o()">o</button></div>
+                <div class="col1"><button id="p"onclick="p()">p</button></div>
+                <div class="col2"><button id="enter" onclick="enter()">Enter</button></div>
+            </div>
+
+            <div class="row">
+                <div class="col1"><button id="a"onclick="a()">a</button></div>
+                <div class="col1"><button id="s"onclick="s()">s</button></div>
+                <div class="col1"><button id="d"onclick="d()">d</button></div>
+                <div class="col1"><button id="f"onclick="f()">f</button></div>
+                <div class="col1"><button id="g"onclick="g()">g</button></div>
+                <div class="col1"><button id="h"onclick="h()">h</button></div>
+                <div class="col1"><button id="j"onclick="j()">j</button></div>
+                <div class="col1"><button id="k"onclick="k()">k</button></div>
+                <div class="col1"><button id="l"onclick="l()">l</button></div>
+                <div class="col3"><button id="capsLock" onclick="capsLock()">Caps Lock</button></div>
+            </div>
+
+            <div class="row">
+                <div class="col1"><button id="z"onclick="z()">z</button></div>
+                <div class="col1"><button id="x"onclick="x()">x</button></div>
+                <div class="col1"><button id="c"onclick="c()">c</button></div>
+                <div class="col1"><button id="v"onclick="v()">v</button></div>
+                <div class="col1"><button id="b"onclick="b()">b</button></div>
+                <div class="col1"><button id="n"onclick="n()">n</button></div>
+                <div class="col1"><button id="m"onclick="m()">m</button></div>
+                <div class="col1"><button id="-"onclick="minus()">-</button></div>
+                <div class="col1"><button id="_"onclick="underscore()">_</button></div>
+                <div class="col3"><button id="shift" onclick="shiftFun()">Shift</button></div>
+            </div>
+
+            <div class="row">
+                <div class="col9"><button id="space" onclick="space()">Space</button></div>
+                <div class="col3"><button id="submit" onclick="submit()">OK</button></div>
+            </div>
+
+
+        </main>
+            
+    </body>
+</html>
+
+

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+
+#txtArea {
+    width:100%;
+    height:10rem;
+}
+
+body {
+    width:60%;
+    margin:auto;
+}
+
+h2 {
+    text-align:center;
+    color:chocolate;
+}
+
+.row {
+    background-color:#003060
+    ;
+}
+
+
+/* Create equal columns that floats next to each other */
+.col1 {
+  float: left;
+  width: 8.3333%;
+  height: 3rem;
+  border:1px solid #055C9D;
+}
+
+.col2 {
+    float: left;
+    width: 16.6666%;
+    height: 3rem;
+    border:1px solid #055C9D;
+  }
+
+  .col3 {
+    float: left;
+    width: 24.9999%;
+    height: 3rem;
+    border:1px solid #055C9D;
+  }
+
+  .col9 {
+    float: left;
+    width: 75%;
+    height: 3rem;
+    border:1px solid #055C9D;
+
+  }
+
+button {
+    width:100%;
+    height: 3rem;
+    padding:0px;
+    border:0px;
+    background-color: #003060;
+    color:aliceblue;
+    font-size: 2rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
